@@ -17,6 +17,7 @@
 
     <main>
         @include('components.jumbotron')
+
         @yield('main-content')
     </main>
     
