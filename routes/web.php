@@ -14,10 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/fumetti', function () {
 
     $fumetti =
     [
@@ -234,8 +230,9 @@ Route::get('/fumetti', function () {
         ],
     ];
 
-    dd($fumetti);
+    // dd($fumetti);
 
-    // return view('prodotti', ['title' => $title]);
-    return view('prodotti', compact('fumetti'));
+    return view('welcome', compact('fumetti'));
 });
+
+

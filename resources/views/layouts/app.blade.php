@@ -17,8 +17,10 @@
 
     <main>
         @include('components.jumbotron')
+        @include('components.fumetti')
 
-        @yield('main-content')
+        
+        @yield('fumetti-content')
     </main>
     
 </body>
