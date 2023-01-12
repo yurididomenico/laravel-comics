@@ -1,0 +1,33 @@
+header
+{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+img
+{
+    width: 20%;
+}
+h2
+{
+    background-color: lightgrey;
+}
+nav ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li
+{
+    list-style-type: none;
+    margin: 0 30px;
+}
+a
+{
+    text-decoration: none;
+}.bg-image-prodotti
+{
+    background-image: url('../img/partner.png');
+    padding: 30px;
+}
