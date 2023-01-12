@@ -1,12 +1,14 @@
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);.sites
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);.contenitore
+{
+    width: 70%;
+    margin: 0 auto;
+}.sites
 {
     padding: 5px;
     background-color: #0282f9;
-    margin: 0 auto;
 }
 .sites ul
 {
-    width: 85%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -17,7 +19,23 @@
     margin-left: 60px;
     font-size: 0.7rem;
     font-weight: bold;
-}.bg-image-prodotti
+}nav
+{
+    padding: 20px;
+}
+nav img
+{
+    width: 80px;
+}
+
+nav li
+{
+    color: rgb(66, 66, 66);
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.bg-image-prodotti
 {
     background-image: url('../img/partner.png');
     padding: 30px;
@@ -30,4 +48,16 @@
   list-style-type: none;
   transition-duration: 200ms;
   font-family: "Montserrat", sans-serif;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
