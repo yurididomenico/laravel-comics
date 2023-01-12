@@ -11,6 +11,7 @@
 <body>
 
     <header>
+        @include('components.sites')
         @include('components.menu')
     </header>
 

@@ -1,0 +1,20 @@
+.sites
+{
+    padding: 5px;
+    background-color: #0282f9;
+    margin: 0 auto;
+}
+.sites ul
+{
+    width: 85%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.sites li
+{
+    color: white;
+    margin-left: 60px;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
