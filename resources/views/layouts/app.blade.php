@@ -21,6 +21,9 @@
 
         
         @yield('fumetti-content')
+
+        @include('components.linkutili')
+
     </main>
     
 </body>
