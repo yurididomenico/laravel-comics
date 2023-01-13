@@ -6,7 +6,7 @@
         {{-- Menu --}}
         <ul class="d-flex align-center">
             <li><a href="/">CHARACTERS</a></li>
-            <li class="active"><a href="/fumetti">COMICS</a></li>
+            <li class="active"><a href="{{ route('home') }}">COMICS</a></li>
             <li><a href="/fumetti">MOVIE</a></li>
             <li><a href="/fumetti">TV</a></li>
             <li><a href="/fumetti">GAMES</a></li>
