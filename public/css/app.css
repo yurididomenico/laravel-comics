@@ -127,6 +127,15 @@ nav li
     display: flex;
     justify-content: space-around;
     font-weight: 500;
+}.sfondo-DC
+{
+    background-image: url('../img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contenitore ul
+{
+    color: white;
 }* {
   padding: 0;
   margin: 0;

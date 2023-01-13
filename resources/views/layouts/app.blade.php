@@ -19,12 +19,13 @@
         @include('components.jumbotron')
         @include('components.fumetti')
 
-        
         @yield('fumetti-content')
-
-        @include('components.linkutili')
-
     </main>
+
+    <footer>
+        @include('components.linkutili')
+        @include('components.contacts')
+    </footer>
     
 </body>
 </html>
