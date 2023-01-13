@@ -6,6 +6,6 @@
 
 @section('fumetti-content')
     
-    <h2>Homepage</h2>
+    <h2>Prodotto: {{ $fumetto_singolo['title'] }}</h2>
 
 @endsection

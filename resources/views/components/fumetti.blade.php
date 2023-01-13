@@ -4,8 +4,8 @@
     <div class="album">
         <div class="contenitore">
             {{-- vvv Struttura Card vvv --}}
-            @foreach ($fumetti as $elem)
-                <a href="/" class="carta">
+            @foreach ($fumetti as $id => $elem)
+                <a href="{{route('show.fumetti', ['id' => $id])}}" class="carta">
                     <img src=" {{$elem['thumb'] }}" alt="">
                     <h4>{{ $elem['series'] }}</h4>
                 </a>
