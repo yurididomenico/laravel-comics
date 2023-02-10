@@ -3,9 +3,9 @@
 
     <div class="album">
         <div class="contenitore">
-            {{-- vvv Struttura Card vvv --}}
+            {{-- Struttura Card --}}
             @foreach ($fumetti as $id => $elem)
-                <a href="{{route('show.fumetti', ['id' => $id])}}" class="carta">
+                <a href="{{ route('show.Fumetti', compact('id')) }}" class="carta">
                     <img src=" {{$elem['thumb'] }}" alt="">
                     <h4>{{ $elem['series'] }}</h4>
                 </a>

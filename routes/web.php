@@ -15,17 +15,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
-   $fumetti = config('fumettiComics');
-
-    // dd($fumetti);
-
-    return view('layouts.app', compact('fumetti'));
+    return view('welcome', compact('fumetti'));
 })->name('home');
 
 // ---------------------------------------------------------- //
 
 //Rotta per la pagina del singolo fumetto
-Route::get('/{id}', function($id)
+Route::get('/fumetti/{id}', function($id)
 {
     //Estrazione API dei fumetti (cartella "config")
     $fumetti = config('fumettiComics');
@@ -46,10 +42,10 @@ Route::get('/{id}', function($id)
         abort(404);
     }
 
-    // dd($fumetto_singolo);
+    dd($fumetto_singolo);
     
     return view('pages.comics.show', compact('fumetto_singolo'));
-})->name('show.fumetti');
+})->name('show.Fumetti');
 
 
 
